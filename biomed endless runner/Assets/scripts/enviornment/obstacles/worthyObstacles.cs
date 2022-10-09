@@ -17,7 +17,6 @@ public class worthyObstacles : MonoBehaviour
     {
         if (CreatingPrefabs)
         {
-            Debug.Log("maa chud gayi");
             int randomCase = Random.Range(0, 2);
             if (randomCase == 0)
             {
