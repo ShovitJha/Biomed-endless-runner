@@ -1,0 +1,2 @@
+D:\unity\biomed endless runner\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\unity\biomed endless runner\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
