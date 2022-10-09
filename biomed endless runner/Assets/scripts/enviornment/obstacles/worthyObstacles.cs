@@ -39,6 +39,10 @@ public class worthyObstacles : MonoBehaviour
 
                 }
             }
+            else
+            {
+                GameObject temp1 = Instantiate(prefabs[Random.Range(0, prefabs.Length)], spawner[Random.Range(0, 2)]);
+            }
         }
     }
 }
