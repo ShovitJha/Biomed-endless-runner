@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5;
     public float lateralSpeed = 4;
     private worthyObstacles _worthyObstacles;
+    public float x;
     
     [SerializeField] private GenerateLevel genLevel;
     [SerializeField] private genObstacle genObstacle;
@@ -39,6 +40,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+
+        
+        x = Input.GetAxisRaw("Horizontal");
+        if (this.gameObject.transform.position.x <= Level.rightSide)
+            transform.Translate(Vector3.left * Time.deltaTime * lateralSpeed * -1 * x);
+        else
+        {
+            transform.position = new Vector3(Level.rightSide,transform.position.y,transform.position.z);
+        }
+        if (this.gameObject.transform.position.x >= Level.leftSide)
+            transform.Translate(Vector3.left * Time.deltaTime * lateralSpeed * -1 * x);
+        else
+        {
+            transform.position = new Vector3(Level.leftSide,transform.position.y,transform.position.z);
+        }
+        
         transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {

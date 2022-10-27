@@ -726,6 +726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   lateralSpeed: 7
+  x: 0
   genLevel: {fileID: 944683109}
   genObstacle: {fileID: 944683110}
   LevelControl: {fileID: 944683106}
