@@ -15,7 +15,7 @@ D:/Unity Projs/Biomed-endless-runner/biomed endless runner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63623
+59563
 Successfully changed project path to: D:/Unity Projs/Biomed-endless-runner/biomed endless runner
 D:/Unity Projs/Biomed-endless-runner/biomed endless runner
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity Projs/Biomed-endless-runner/biomed endless runner
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 61.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,87 +63,87 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003916 seconds.
+Registered in 0.007056 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
+- Completed reload, in  1.192 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (740ms)
-			LoadAssemblies (120ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (190ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (403ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (417ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
+				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008206 seconds.
+Registered in 0.008559 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.331 seconds
+- Completed reload, in  1.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1332ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1655ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1010ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1219ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (451ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (591ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
+				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (50.2 KB). Loaded Objects now: 2190.
 Memory consumption went from 89.5 MB to 89.5 MB.
-Total: 7.072000 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.187200 ms MarkObjects: 6.265700 ms  DeleteObjects: 0.226200 ms)
+Total: 4.268400 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.107400 ms MarkObjects: 3.806600 ms  DeleteObjects: 0.142900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,19 +157,281 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 37338.446389 seconds.
-  path: Assets/characters/Car/New car/CarTestAddon.fbx
-  artifactKey: Guid(d034d334060be584a90cc3efab25b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characters/Car/New car/CarTestAddon.fbx using Guid(d034d334060be584a90cc3efab25b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f58eeb35054b855b65d7a94324f9d9') in 0.475913 seconds 
+  Time since last request: 36275.030648 seconds.
+  path: Assets/characters/Car/Cars
+  artifactKey: Guid(5738134d2c72dba43a2bfa885d302b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/Car/Cars using Guid(5738134d2c72dba43a2bfa885d302b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f957675ac0b55036fc23ba1a5c0ce74') in 0.015613 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.845079 seconds.
-  path: Assets/characters/Car/New car/CarTestAddon.fbx
-  artifactKey: Guid(d034d334060be584a90cc3efab25b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characters/Car/New car/CarTestAddon.fbx using Guid(d034d334060be584a90cc3efab25b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8b24b78e94005dcd7dd8b66d2f7f67') in 0.097007 seconds 
+  Time since last request: 2.457803 seconds.
+  path: Assets/characters/Car/Cars/PlayerCar
+  artifactKey: Guid(994627cd96405e9479950e5b41b4906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/Car/Cars/PlayerCar using Guid(994627cd96405e9479950e5b41b4906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4005b01185b9b53ae1ffa412ec346d') in 0.008883 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.018469 seconds.
-  path: Assets/characters/Car/New car/CarTestAddon.fbx
-  artifactKey: Guid(d034d334060be584a90cc3efab25b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characters/Car/New car/CarTestAddon.fbx using Guid(d034d334060be584a90cc3efab25b722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e861dbacfb00d8fc22f951ee6130d69') in 0.095206 seconds 
+  Time since last request: 5.718401 seconds.
+  path: Assets/characters/Car/Cars/FireTruck
+  artifactKey: Guid(90cf8bd22cbcff648b3217b09f6c1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/Car/Cars/FireTruck using Guid(90cf8bd22cbcff648b3217b09f6c1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cab9d84857355ea98432a2f62a7edac') in 0.010131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.107906 seconds.
+  path: Assets/characters/Car/Cars/FireTruck/FireTruck.fbx
+  artifactKey: Guid(9958b6551c228a649a7de6f475f3a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/Car/Cars/FireTruck/FireTruck.fbx using Guid(9958b6551c228a649a7de6f475f3a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718c44a18fd5f328ab21272c7c55eb94') in 1.341512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 181.110203 seconds.
+  path: Assets/characters/truck
+  artifactKey: Guid(5cd855561b502c74d8be40fa1ec3089f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck using Guid(5cd855561b502c74d8be40fa1ec3089f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fe1b710bb387e3788680d27bf71954') in 0.014537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037949 seconds.
+  path: Assets/characters/truck/_813_Int10.mat
+  artifactKey: Guid(24baa88a28dfe734384b4172441a9e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int10.mat using Guid(24baa88a28dfe734384b4172441a9e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce64bc4ce9f163fd890228e174d2d15') in 0.147626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/characters/truck/_813_Inte7.mat
+  artifactKey: Guid(a2b5d2beb1a4480498df7550af5f65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Inte7.mat using Guid(a2b5d2beb1a4480498df7550af5f65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ac4272782ba07a888774ece32524cf') in 0.049786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/characters/truck/_813_Int26.mat
+  artifactKey: Guid(06499c49227f2824ea84ba35b987add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int26.mat using Guid(06499c49227f2824ea84ba35b987add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821adcaae0d6d060a84e58c5831a3184') in 0.031321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/characters/truck/_813_Inte1.mat
+  artifactKey: Guid(c552a8d4397218348a771cb101bc90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Inte1.mat using Guid(c552a8d4397218348a771cb101bc90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34b4fc073344092a250a5e7c1f418e0') in 0.034884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/characters/truck/wire_134006006.mat
+  artifactKey: Guid(6a1ef8259a8563648a146b59ae1547c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/wire_134006006.mat using Guid(6a1ef8259a8563648a146b59ae1547c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbc470ab9134465eb097ce81f0f1eae') in 0.052580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/characters/truck/_813_Int49.mat
+  artifactKey: Guid(75c21f7d6a601dc48a7a71c690876ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int49.mat using Guid(75c21f7d6a601dc48a7a71c690876ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e694291d8d5a16451905cb97828600') in 0.050678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/characters/truck/_813_Inte9.mat
+  artifactKey: Guid(e9531810e4c01ba4cb92c48c28854640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Inte9.mat using Guid(e9531810e4c01ba4cb92c48c28854640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3942d357c0ba188a0831b1b9055343') in 0.064066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/characters/truck/_813_Int20.mat
+  artifactKey: Guid(05ecdcfdcfcb7aa419b10e23ac1bea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int20.mat using Guid(05ecdcfdcfcb7aa419b10e23ac1bea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7b4b7b09cd4d192c5a7975c53ec5c0') in 0.051996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/characters/truck/_813_Int34.mat
+  artifactKey: Guid(2e22cddae940f4540983d3e592baee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int34.mat using Guid(2e22cddae940f4540983d3e592baee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1e10e89303ab2683ed6e42b5e2b7e5') in 0.035209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/characters/truck/_813_Int39.mat
+  artifactKey: Guid(1e924180121216b4f9193218f7bfa767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int39.mat using Guid(1e924180121216b4f9193218f7bfa767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b8bc99097e29570b4898f5d14c1d8') in 0.053026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/characters/truck/_813_Int50.mat
+  artifactKey: Guid(c37dae304189dcb4492b917d42762e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int50.mat using Guid(c37dae304189dcb4492b917d42762e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2e940e4623d40fe81040c8fdb0f12b') in 0.033687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/characters/truck/_813_Int25.mat
+  artifactKey: Guid(1d525875c1c8dd74f935f1e457d933ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int25.mat using Guid(1d525875c1c8dd74f935f1e457d933ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddb0785d5648318bd61b99d6c73ccb6') in 0.049499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/characters/truck/_813_Internation.mat
+  artifactKey: Guid(168d94bfa99f7614e9b766e71f1a011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Internation.mat using Guid(168d94bfa99f7614e9b766e71f1a011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa2c943590a48f06b33c9df1bd02497') in 0.033936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/characters/truck/_813_Int18.mat
+  artifactKey: Guid(dda2780b6de0f3f479d10bed3150f317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int18.mat using Guid(dda2780b6de0f3f479d10bed3150f317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9690a8af51747cc625f98a03822e62') in 0.034157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/characters/truck/_813_Int19.mat
+  artifactKey: Guid(e5b031e22e096b84fa1e3f1b3176c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int19.mat using Guid(e5b031e22e096b84fa1e3f1b3176c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d124871c6fbfb354e4ce43b636af47') in 0.045534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/characters/truck/_813_Int21.mat
+  artifactKey: Guid(6ab527194f4742743944157d7d6ebe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int21.mat using Guid(6ab527194f4742743944157d7d6ebe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee1194876313a5cf85b0fd2f22af8aa') in 0.042850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/characters/truck/__________.mat
+  artifactKey: Guid(0999e22cb6ed84e45ace5b0136f57580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/__________.mat using Guid(0999e22cb6ed84e45ace5b0136f57580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9d63c224089ee269af288d9614ce5d') in 0.046454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/characters/truck/_813_Int40.mat
+  artifactKey: Guid(2c434c4a35089d74b8554192f53f095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int40.mat using Guid(2c434c4a35089d74b8554192f53f095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c132375b3bc5e94189ac7f72952522') in 0.037160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/characters/truck/_813_Int46.mat
+  artifactKey: Guid(cb52a607391a77f4baeeb06d7f9bf7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int46.mat using Guid(cb52a607391a77f4baeeb06d7f9bf7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88703bf4ac438bb95bf52ee990f78ed') in 0.035406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/characters/truck/_813_Inte3.mat
+  artifactKey: Guid(b4a75780be5e2684ea167c0acb7b84ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Inte3.mat using Guid(b4a75780be5e2684ea167c0acb7b84ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a4e6b353ebee3f83d994c87d42c036') in 0.042246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/characters/truck/_813_Int27.mat
+  artifactKey: Guid(8d86a8de883609848aee2d1e8f01df93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int27.mat using Guid(8d86a8de883609848aee2d1e8f01df93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8f5ad361415650a7f3eea028599fcf') in 0.028554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/characters/truck/_813_Int41.mat
+  artifactKey: Guid(19adf756716077b458f4634d735620fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int41.mat using Guid(19adf756716077b458f4634d735620fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a898d9f89e8ce5cd1ca789a280df7bdd') in 0.031728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/characters/truck/_813_Int14.mat
+  artifactKey: Guid(05f318cfe272fe14f99a6dd2d3086abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int14.mat using Guid(05f318cfe272fe14f99a6dd2d3086abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64015ba230b4d6685cef7913f041b6c') in 0.041032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/characters/truck/_813_Int30.mat
+  artifactKey: Guid(c38204149d3cd2847aa7f1a932689308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int30.mat using Guid(c38204149d3cd2847aa7f1a932689308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a755e7f569a91849385f3eabb422a0') in 0.033791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/characters/truck/_813_Int52.mat
+  artifactKey: Guid(6cde3d1f510c31644b50861e3d60f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int52.mat using Guid(6cde3d1f510c31644b50861e3d60f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f3037c89f8414bb47afce8559be1c') in 0.056387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/characters/truck/_813_Int31.mat
+  artifactKey: Guid(c8193010692e71a4ebd079f40015dbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int31.mat using Guid(c8193010692e71a4ebd079f40015dbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4c75858f8bb176d788b9d725e20af2') in 0.042826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/characters/truck/_813_Int37.mat
+  artifactKey: Guid(d9230dbebe8ef5b46a6b11e00e065976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int37.mat using Guid(d9230dbebe8ef5b46a6b11e00e065976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e760eacb40aafd6056eded71116290e') in 0.083761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/characters/truck/_813_Int12.mat
+  artifactKey: Guid(99b271b4cf682fb4fa991c19e3c7ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int12.mat using Guid(99b271b4cf682fb4fa991c19e3c7ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27fcc1618cb1ccca55b84534f4953cf') in 0.045906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/characters/truck/_813_Int15.mat
+  artifactKey: Guid(23ca8b8e386e00f44ab5d72481884568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int15.mat using Guid(23ca8b8e386e00f44ab5d72481884568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf079e9e91c6599d36d493e0187176ff') in 0.030581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/characters/truck/_813_Int17.mat
+  artifactKey: Guid(465b96fce1fc8f440b37bad82b2be49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int17.mat using Guid(465b96fce1fc8f440b37bad82b2be49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765e15ac0b20e072d1a5adacde82923c') in 0.041835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/characters/truck/_813_Int22.mat
+  artifactKey: Guid(21404c1f9e4825344be414f39e0fb8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int22.mat using Guid(21404c1f9e4825344be414f39e0fb8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d69a11e765fa34f9377fc898f385e71') in 0.046872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/characters/truck/_813_Int35.mat
+  artifactKey: Guid(ff974b2d0d86c824d8531a25281ed670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int35.mat using Guid(ff974b2d0d86c824d8531a25281ed670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e756219e185447afc13c3fe99a486ae') in 0.019153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/characters/truck/_813_Inte4.mat
+  artifactKey: Guid(fcf38b3bd1c0a904187081b32200ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Inte4.mat using Guid(fcf38b3bd1c0a904187081b32200ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bab4fc70a1de1e3cac1e5c6373ee57') in 0.155433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/characters/truck/_813_Int45.mat
+  artifactKey: Guid(70ed34e167bc4cd45879bb09e404652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int45.mat using Guid(70ed34e167bc4cd45879bb09e404652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9100fe42cffd5efad3210ada0dbbeec2') in 0.021213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/characters/truck/_813_Int38.mat
+  artifactKey: Guid(89cf531e01a10c64fbd66613d03d2225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int38.mat using Guid(89cf531e01a10c64fbd66613d03d2225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a877c60a9523911ec029554b4f7137a') in 0.045007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/characters/truck/_813_Int43.mat
+  artifactKey: Guid(afb9b3439af64ea42b42e2cdb2c0fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int43.mat using Guid(afb9b3439af64ea42b42e2cdb2c0fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746edd689699f444e958caba1149fbf1') in 0.025914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/characters/truck/_813_Int23.mat
+  artifactKey: Guid(475e289574486d740abbfe6226b3a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int23.mat using Guid(475e289574486d740abbfe6226b3a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7fba557c657b43848b38b35bfc613d') in 0.020618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/characters/truck/_813_Int29.mat
+  artifactKey: Guid(6dd252bf679aa604681969e6bebe5050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int29.mat using Guid(6dd252bf679aa604681969e6bebe5050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd732572edede7dbe4ae71ef13d03fa03') in 0.021203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/characters/truck/_813_Int33.mat
+  artifactKey: Guid(63d4026ed60c958488d71d6309841e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int33.mat using Guid(63d4026ed60c958488d71d6309841e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c3ef601a85fbe6d46f2d16e7ce62c1') in 0.029226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/characters/truck/_813_Int24.mat
+  artifactKey: Guid(6fdcd6ac9d8b26d46bb76a5e60fa876d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int24.mat using Guid(6fdcd6ac9d8b26d46bb76a5e60fa876d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0ace9b13f109d9b6c07a154c0801ea') in 0.026181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/characters/truck/_813_Int48.mat
+  artifactKey: Guid(3403b6a8d17f6e448a1d1f1490f14db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/truck/_813_Int48.mat using Guid(3403b6a8d17f6e448a1d1f1490f14db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e205b881b74776b047c5f28f271f6f27') in 0.022837 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
