@@ -816,7 +816,7 @@ Transform:
   - {fileID: 963194228}
   - {fileID: 305604282}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2083400105
 Rigidbody:
@@ -3078,7 +3078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5863230407027818729, guid: 8d1e238608af33d4586510ea338799d8, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5863230407027818729, guid: 8d1e238608af33d4586510ea338799d8, type: 3}
       propertyPath: m_LocalPosition.x
